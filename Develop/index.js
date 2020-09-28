@@ -45,6 +45,31 @@ const questions = () => [
         name: 'tests',
         message: 'Provide test instructions for your project:',
     },
+    {
+        type: "input",
+        name: 'license',
+        message: 'Choose a license for your application:',
+        choices: [
+            'Academic Free License v3.0',
+            'Apache license 2.0',
+            'Creative Commons license family',
+            'European Union Public License 1.1',
+            'Microsoft Public License',
+            'MIT',
+            'Mozilla Public License 2.0',
+            'PostgreSQL License',
+        ]
+    },
+    {
+        type: "input",
+        name: 'username',
+        message: 'What is your GitHub username?',
+    },
+    {
+        type: "input",
+        name: 'email',
+        message: 'What is your email address?',
+    },
 ];
 
 // function to write README file
