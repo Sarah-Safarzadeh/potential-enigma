@@ -4,7 +4,7 @@ const inquirer = require("inquirer");
 const generateReadme = require("./utils/generateMarkdown)
 
 
-usage information, contribution guidelines, and test instructions
+
 THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
 WHEN I choose a license for my application from a list of options
 THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
@@ -35,7 +35,16 @@ const questions = () => [
         name: 'usage',
         message: 'Provide information on the usage of your project:',
     },
-
+    {
+        type: "input",
+        name: 'contributing',
+        message: 'Provide information on the contribution guidelines for your project:',
+    },
+    {
+        type: "input",
+        name: 'tests',
+        message: 'Provide test instructions for your project:',
+    },
 ];
 
 // function to write README file
