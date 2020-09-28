@@ -69,12 +69,13 @@ const questions = () => [
 ];
 
 // function to write README file
-function writeToFile('./Develop/README', data) {
+function writeToFile(data) {
+    const fileName = "./dist/README.md";
 }
 
 // function to initialize program
 function init() {
-
+const data = questions();
 }
 
 // function call to initialize program
