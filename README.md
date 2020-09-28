@@ -4,6 +4,10 @@
 
 ## Description
 > This project creates a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+* User Story: <br>
+AS A developer\
+I WANT a README generator\
+SO THAT can quickly create a professional README for a new project\
 
 ## Table of Contents
 - [Description](#description)
