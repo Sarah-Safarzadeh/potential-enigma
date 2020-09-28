@@ -70,7 +70,11 @@ const questions = () => [
 
 // function to write README file
 function writeToFile(data) {
-    const fileName = "./dist/README.md";
+    fs.writeFile('README.md', data, err => {
+        if (err) throw err;
+
+        console.log("The README.md is now created!")
+    })
 }
 
 // function to initialize program
