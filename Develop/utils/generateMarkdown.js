@@ -36,7 +36,6 @@ Licensed by ${data.license}
 ${data.questions}
 * GitHub: [${data.username}](https://github.com/${data.username})
 * Email: ${data.email}
-
 `;
 }
 
