@@ -79,7 +79,9 @@ function writeToFile(data) {
 
 // function to initialize program
 function init() {
-const data = questions();
+    inquirer.prompt(questions)
+        .then(generateMarkdown)
+        .then(writeToFile);
 }
 
 // function call to initialize program
