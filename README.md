@@ -2,12 +2,14 @@
 
 ### The Coding Bootcamp at UT - Week 09 Challenge: Node.js Challenge: Professional README Generator
 
+## Description
+> This project creates a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [License](#license)
 - [Questions](#questions)
 
