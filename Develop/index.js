@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-const questions = () => [
+const questions = [
     {
         type: "input",
         name: 'title',
@@ -64,7 +64,6 @@ const questions = () => [
         name: 'questions',
         message: 'Please provide instuctions on how to reach you with additional questions:',
     },
-
 ];
 
 // function to write README file
